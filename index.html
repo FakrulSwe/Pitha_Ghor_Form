@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pithe Ghor of Rupok</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+        h1{
+            text-align: center;
+            /* margin-bottom: 50px; */
+            border-bottom: 5px solid rgb(71, 37, 37);
+            color: brown;
+            /* text-underline-offset: 10px; */
+        }
+        body{
+            background-image: url(Pitha.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Well come to Rupok's Pitha Ghor</h1>
+    <form >
+        <label for="name">Your name
+            <input type="text" name="name" id="name" placeholder="Your name">
+        </label>
+        <label for="email">Your name
+            <input type="email" name="email" id="email" placeholder="Your email">
+        </label>
+        <label for="pass">Your name
+            <input type="password" name="pass" id="pass" placeholder="Your pass">
+        </label>
+        <label for="mobile">Your name
+            <input type="number" name="phone" id="mobile" placeholder="Your mobile number">
+        </label>
+
+        <fieldset>
+            <legend>Pick one pitha</legend>
+                <label for="pitha">
+                    <input type="radio" name="pitha" id="chitoy">
+                    Chitoy
+                </label>
+                <label for="pitha">
+                    <input type="radio" name="pitha" id="bhapa">
+                    Bhapa
+                </label>
+                <label for="pitha">
+                    <input type="radio" name="pitha" id="narikel">
+                    Narikel
+                </label>
+            
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Select Borta</legend>
+                <label for="moris">
+                    <input type="checkbox" name="borta" id="moris">
+                    Moris
+                </label>
+                <label for="kola">
+                    <input type="checkbox" name="borta" id="kola">
+                    Kola
+                </label>
+                <label for="begun">
+                    <input type="checkbox" name="borta" id="begun">
+                    Begun
+                </label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Some think New!</legend>
+            <textarea name="text" id="somethink" cols="60" rows="3"></textarea>
+        </fieldset>
+        <br>
+     
+        <input type="reset" name="reset" id="reset">
+        <input type="submit" name="submit" id="submit">
+
+
+    </form>
+
+</body>
+</html>
